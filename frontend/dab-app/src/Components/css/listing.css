@@ -1,0 +1,39 @@
+.add-review {
+	margin-bottom: 30px;
+}
+
+.form-input {
+	width:140px;
+	/* padding:20px;
+	background:#fff;
+	box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),
+				3px 3px 7px rgba(94, 104, 121, 0.377); */
+  }
+  .form-input input {
+	display:none;
+  
+  }
+  .form-input label {
+	display:block;
+	width:100%;
+	height:40px;
+	/* margin-left: 25%; */
+	line-height:40px;
+	text-align:center;
+	background:#d70000;
+  
+	color:#fff;
+	font-size:15px;
+	/* font-weight:600; */
+	border-radius:25px;
+	cursor:pointer;
+  }
+
+
+  .review-sub {
+	background:#d70000;
+	color:#fff;
+	border-radius:25px;
+	line-height:40px;
+	padding: 10px;
+  }

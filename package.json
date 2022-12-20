@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/node": "^17.0.31"
+  },
+  "dependencies": {
+    "firebase": "^9.8.1",
+    "uuid": "^8.3.2"
+  }
+}

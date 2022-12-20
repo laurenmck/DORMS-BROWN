@@ -1,0 +1,62 @@
+
+.review {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    padding: 1em;
+}
+.review + .review {
+    margin-top: 1em;
+    position: center;
+}
+
+{/*css for user input review text box*/}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.photoSection {
+    align-items: center;
+}
+
+.star-rating {
+    padding-top: 10px;
+}
+
+{/*css images if can get working lol*/}
+#display-img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+{/*css for stars*/}
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.on {
+    color: #da0000;
+}
+.off {
+    color: #ccc;
+}
+
+{/*css for submit review buttom*/}
+.review-sub {
+    color: lightslategray;
+}
+
+.review-sub.hover {
+    color: #da0000;
+}
